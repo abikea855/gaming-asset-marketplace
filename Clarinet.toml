@@ -5,6 +5,11 @@ authors = []
 telemetry = false
 cache_dir = './.cache'
 requirements = []
+[contracts.asset-authenticator]
+path = 'contracts/asset-authenticator.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.asset-bridge]
 path = 'contracts/asset-bridge.clar'
 clarity_version = 2
